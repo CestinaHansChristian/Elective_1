@@ -1,0 +1,82 @@
+:root {
+    --bg-color-yellow:rgb(211, 219, 72);
+    --bg-color-pink:rgb(219, 11, 150);
+    --bg-color-blue:rgb(89, 89, 217);
+}
+
+* {
+    font-family: 'Mooli';
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Mooli';
+    src: url(../Mooli/Mooli-Regular.ttf);
+}
+
+.navbar-expand-lg {
+    background-color: var(--bg-color-pink);
+    font-size: 30px;
+}
+
+.logo-top-navbar {
+    width: 15%;
+    height: 5%;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.card-img-top {
+    pointer-events: none;
+    cursor: not-allowed;
+    height: 50%;
+}
+
+.prod-item {
+    height: 580px;
+}
+  
+div .disp-prod-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+div .card {
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+}
+
+.sample-prod {
+    box-shadow: 1px 5px 10px;
+  }
+
+.heading-wrapper h5 {
+    font-size: 30px;
+    font-weight: bolder; 
+}
+
+div .nav-wrapper {
+    display: flex;
+}
+
+.body-wrapper {
+    background-color: var(--bg-color-yellow);
+    border-radius: 5px;
+}
+
+.footer-wrapper {
+    background-color: var(--bg-color-blue);
+}
+
+
+.nav-wrapper-right a{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div .card-title {
+    font-weight: bold;
+}

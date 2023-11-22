@@ -1,0 +1,48 @@
+:root {
+  --bg-color-yellow:rgb(211, 219, 72);
+  --bg-color-pink:rgb(219, 11, 150);
+  --bg-color-blue:rgb(89, 89, 217);
+}
+
+@font-face {
+  font-family: 'Mooli';
+  src: url(../Mooli/Mooli-Regular.ttf);
+}
+
+* {
+  font-family: 'Mooli';
+  box-sizing: border-box;
+}
+
+.navbar-expand-lg {
+  background-color: var(--bg-color-pink);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-wrapper-right a {
+  color: whitesmoke;
+}
+
+.logo-top-navbar {
+  width: 15%;
+  height: 5%;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.product-landing-page-wrapper {
+  background-color: var(--bg-color-blue);
+}
+
+.footer-wrapper {
+  background-color: var(--bg-color-blue);
+}
+
+.sample-prod {
+  box-shadow: 1px 5px 10px;
+}
+
+.add-cart-wrapper {
+  background-color: var(--bg-color-yellow);
+}
