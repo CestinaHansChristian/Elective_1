@@ -1,0 +1,85 @@
+:root {
+    --bg-color-yellow:rgb(211, 219, 72);
+    --bg-color-pink:rgb(219, 11, 150);
+    --bg-color-blue:rgb(89, 89, 217);
+}
+
+@font-face {
+    font-family: 'Mooli';
+    src: url(../Mooli/Mooli-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Mooli';
+}
+
+.img-contact {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.img-wrapper {
+    background-color: var(--bg-color-pink);
+    border-radius: 16px;
+}
+
+.navbar {
+    background-color: var(--bg-color-pink);
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    width: auto;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+#about {
+    color: aliceblue;
+    background-color: var(--bg-color-blue);
+}
+
+#contact {
+    background-color: rgb(211, 219, 72);
+}
+
+li .nav-link, .nav-link i {
+    color: aliceblue;
+}
+
+li .nav-link:hover, .nav-link i:hover{
+    color: black;
+}
+
+.logo-top-navbar {
+    width: 15%;
+    height: 5%;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.nav-wrapper-right a{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.text-wrapper h2, .text-wrapper p {
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.footer-wrapper {
+    background-color: var(--bg-color-blue);
+}
