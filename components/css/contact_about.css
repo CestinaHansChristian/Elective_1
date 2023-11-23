@@ -83,3 +83,22 @@ li .nav-link:hover, .nav-link i:hover{
 .footer-wrapper {
     background-color: var(--bg-color-blue);
 }
+
+.gmap-loc {
+    height: 500px;
+    width: 600px;
+}
+
+.form-container {
+    background-color: aliceblue;
+    border-radius: 16px;
+}
+
+.img-bg-contact {
+    width: 50%;
+    height: 50%;
+}
+
+.btn-primary a {
+    color:aliceblue
+}

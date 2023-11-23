@@ -80,3 +80,7 @@ div .nav-wrapper {
 div .card-title {
     font-weight: bold;
 }
+
+.btn-primary a {
+    color:aliceblue
+}

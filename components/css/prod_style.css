@@ -24,6 +24,10 @@
   color: whitesmoke;
 }
 
+.btn-primary a {
+  color:aliceblue
+}
+
 .logo-top-navbar {
   width: 15%;
   height: 5%;
